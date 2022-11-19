@@ -1,0 +1,14 @@
+@use "../abstracts/colors" as *;
+@use "../abstracts/functions" as *;
+
+.func-btn {
+  color: $clr-accent-300;
+}
+
+.eql-btn {
+  color: white;
+  background: $clr-accent-300;
+  width: em(135);
+  font-size: 1rem;
+  box-shadow: 0px 2px 4px #0c0e10, 0px -1px #525252;
+}
